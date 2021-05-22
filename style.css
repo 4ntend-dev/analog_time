@@ -1,0 +1,53 @@
+.clock_circle {
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_dot {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.hand_main {
+  position: absolute;
+}
+.hand_main div:first-child {
+  background-color: black;
+}
+.hand_main div:last-child {
+  background-color: transparent;
+}
+
+.second_hand_first {
+  width: 1px;
+  height: 3.7rem;
+}
+.minute_hand_first {
+  width: 2px;
+  height: 3.4rem;
+}
+.hour_hand_first {
+  width: 3px;
+  height: 2rem;
+}
+
+.second_hand_second {
+  width: 1px;
+  height: 3.7rem;
+}
+.minute_hand_second {
+  width: 2px;
+  height: 3.4rem;
+}
+.hour_hand_second {
+  width: 3px;
+  height: 2rem;
+}
